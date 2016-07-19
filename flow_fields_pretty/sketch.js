@@ -21,8 +21,6 @@ function setup() {
   for(var i = 0; i < 500; i++){
     particles[i] = new Particle();
   }
-
-
 }
 
 function draw() {
@@ -59,6 +57,5 @@ function draw() {
     particles[i].edges();
     particles[i].show();
   }
-
   fr.html(floor(frameRate()));
 }
